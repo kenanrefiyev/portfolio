@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Send, MapPin, CheckCircle, ShieldAlert, Logs, Calendar, Mail } from "lucide-react";
+import { Send, CheckCircle, ShieldAlert, Logs, Calendar, Mail } from "lucide-react";
 import { translationKeys } from "./types";
 
 interface MessageLog {
