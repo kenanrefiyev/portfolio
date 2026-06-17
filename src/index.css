@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&family=JetBrains+Mono:wght@400;700;800&family=Plus+Jakarta+Sans:wght@400;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Custom Brutalist button solid shadow effects */
+.brutalist-button {
+  transition: all 0.15s ease-in-out;
+}
+
+.brutalist-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px 0px #a3e635; /* Lime-400 */
+}
+
+/* Clean custom scrollbar for our heavy components */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #121214;
+  border-left: 2px solid #27272a;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border: 1px solid #3f3f46;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3e635;
+}
